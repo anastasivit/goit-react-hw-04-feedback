@@ -18,7 +18,6 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => (
     </div>
   </div>
 );
-
 FeedbackOptions.propTypes = {
   options: PropTypes.arrayOf(PropTypes.string).isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
